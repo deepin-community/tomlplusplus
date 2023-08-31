@@ -1,0 +1,216 @@
+libtomlplusplus.so.3 libtomlplusplus3 #MINVER#
+* Build-Depends-Package: libtomlplusplus-dev
+ (c++)"toml::v3::array::array()@Base" 3.2.0
+ (c++)"toml::v3::array::array(toml::v3::array const&)@Base" 3.2.0
+ (c++)"toml::v3::array::array(toml::v3::array&&)@Base" 3.2.0
+ (c++)"toml::v3::array::array(toml::v3::impl::array_init_elem const*, toml::v3::impl::array_init_elem const*)@Base" 3.2.0
+ (c++)"toml::v3::array::clear()@Base" 3.2.0
+ (c++)"toml::v3::array::equal(toml::v3::array const&, toml::v3::array const&)@Base" 3.2.0
+ (c++)"toml::v3::array::erase(toml::v3::impl::array_iterator<true>)@Base" 3.2.0
+ (c++)"toml::v3::array::erase(toml::v3::impl::array_iterator<true>, toml::v3::impl::array_iterator<true>)@Base" 3.2.0
+ (c++)"toml::v3::array::flatten() &@Base" 3.2.0
+ (c++)"toml::v3::array::insert_at(__gnu_cxx::__normal_iterator<std::unique_ptr<toml::v3::node, std::default_delete<toml::v3::node> > const*, std::vector<std::unique_ptr<toml::v3::node, std::default_delete<toml::v3::node> >, std::allocator<std::unique_ptr<toml::v3::node, std::default_delete<toml::v3::node> > > > >, std::unique_ptr<toml::v3::node, std::default_delete<toml::v3::node> >&&)@Base" 3.2.0
+ (c++)"toml::v3::array::insert_at_back(std::unique_ptr<toml::v3::node, std::default_delete<toml::v3::node> >&&)@Base" 3.2.0
+ (c++)"toml::v3::array::is_homogeneous(toml::v3::node_type) const@Base" 3.2.0
+ (c++)"toml::v3::array::is_homogeneous(toml::v3::node_type, toml::v3::node const*&) const@Base" 3.2.0
+ (c++)"toml::v3::array::is_homogeneous(toml::v3::node_type, toml::v3::node*&)@Base" 3.2.0
+ (c++)"toml::v3::array::operator=(toml::v3::array const&)@Base" 3.2.0
+ (c++)"toml::v3::array::operator=(toml::v3::array&&)@Base" 3.2.0
+ (c++)"toml::v3::array::pop_back()@Base" 3.2.0
+ (c++)"toml::v3::array::prune(bool) &@Base" 3.2.0
+ (c++)"toml::v3::array::shrink_to_fit()@Base" 3.2.0
+ (c++)"toml::v3::array::total_leaf_count() const@Base" 3.2.0
+ (c++)"toml::v3::array::~array()@Base" 3.2.0
+ (c++)"toml::v3::at_path(toml::v3::node const&, std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::at_path(toml::v3::node const&, toml::v3::path const&)@Base" 3.2.0
+ (c++)"toml::v3::at_path(toml::v3::node&, std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::at_path(toml::v3::node&, toml::v3::path const&)@Base" 3.2.0
+ (c++)"toml::v3::ex::parse(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)@Base" 3.2.0
+ (c++)"toml::v3::ex::parse(std::basic_istream<char, std::char_traits<char> >&, std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::ex::parse(std::basic_string_view<char, std::char_traits<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)@Base" 3.2.0
+ (c++)"toml::v3::ex::parse(std::basic_string_view<char, std::char_traits<char> >, std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::ex::parse(std::basic_string_view<char8_t, std::char_traits<char8_t> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)@Base" 3.3.0
+ (c++)"toml::v3::ex::parse(std::basic_string_view<char8_t, std::char_traits<char8_t> >, std::basic_string_view<char, std::char_traits<char> >)@Base" 3.3.0
+ (c++)"toml::v3::ex::parse_file(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::ex::parse_file(std::basic_string_view<char8_t, std::char_traits<char8_t> >)@Base" 3.3.0
+ (c++)"toml::v3::impl::formatter::attach(std::basic_ostream<char, std::char_traits<char> >&)@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::detach()@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::dump_failed_parse_result()@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::formatter(toml::v3::node const*, toml::v3::table const*, toml::v3::impl::formatter_constants const&, toml::v3::impl::formatter_config const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::print(toml::v3::value<bool> const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::print(toml::v3::value<double> const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::print(toml::v3::value<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::print(toml::v3::value<toml::v3::date> const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::print(toml::v3::value<toml::v3::stdopt::date_time> const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::print(toml::v3::value<toml::v3::time> const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::print_indent()@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::print_newline(bool)@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::print_string(std::basic_string_view<char, std::char_traits<char> >, bool, bool)@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::print_unformatted(char)@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::print_unformatted(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::impl::formatter::print_value(toml::v3::node const&, toml::v3::node_type)@Base" 3.2.0
+ (c++)"toml::v3::impl::node_deep_equality(toml::v3::node const*, toml::v3::node const*)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, bool)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, char)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, double, toml::v3::value_flags, bool)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, float, toml::v3::value_flags, bool)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::array const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::date const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::source_position const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::source_region const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::stdopt::date_time const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::table const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::time const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::time_offset const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::value<bool> const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::value<double> const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::value<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::value<toml::v3::date> const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::value<toml::v3::stdopt::date_time> const&)@Base" 3.2.0
+ (c++)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::value<toml::v3::time> const&)@Base" 3.2.0
+ (c++)"toml::v3::json_formatter::print()@Base" 3.2.0
+ (c++)"toml::v3::json_formatter::print(toml::v3::array const&)@Base" 3.2.0
+ (c++)"toml::v3::json_formatter::print(toml::v3::table const&)@Base" 3.2.0
+ (c++)"toml::v3::node::at_path(std::basic_string_view<char, std::char_traits<char> >) const@Base" 3.2.0
+ (c++)"toml::v3::node::at_path(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::node::at_path(toml::v3::path const&) const@Base" 3.2.0
+ (c++)"toml::v3::node::at_path(toml::v3::path const&)@Base" 3.2.0
+ (c++)"toml::v3::node::node()@Base" 3.2.0
+ (c++)"toml::v3::node::node(toml::v3::node const&)@Base" 3.2.0
+ (c++)"toml::v3::node::node(toml::v3::node&&)@Base" 3.2.0
+ (c++)"toml::v3::node::operator=(toml::v3::node const&)@Base" 3.2.0
+ (c++)"toml::v3::node::operator=(toml::v3::node&&)@Base" 3.2.0
+ (c++)"toml::v3::node::operator[](toml::v3::path const&) const@Base" 3.2.0
+ (c++)"toml::v3::node::operator[](toml::v3::path const&)@Base" 3.2.0
+ (c++)"toml::v3::node::~node()@Base" 3.2.0
+ (c++)"toml::v3::path::clear()@Base" 3.2.0
+ (c++)"toml::v3::path::equal(toml::v3::path const&, toml::v3::path const&)@Base" 3.2.0
+ (c++)"toml::v3::path::operator+=(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::path::operator+=(toml::v3::path const&)@Base" 3.2.0
+ (c++)"toml::v3::path::operator+=(toml::v3::path&&)@Base" 3.2.0
+ (c++)"toml::v3::path::operator=(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::path::parent() const@Base" 3.2.0
+ (c++)"toml::v3::path::path(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::path::prepend(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::path::prepend(toml::v3::path const&)@Base" 3.2.0
+ (c++)"toml::v3::path::prepend(toml::v3::path&&)@Base" 3.2.0
+ (c++)"toml::v3::path::print_to(std::basic_ostream<char, std::char_traits<char> >&) const@Base" 3.2.0
+ (c++)"toml::v3::path::str[abi:cxx11]() const@Base" 3.2.0
+ (c++)"toml::v3::path::subpath(__gnu_cxx::__normal_iterator<toml::v3::path_component const*, std::vector<toml::v3::path_component, std::allocator<toml::v3::path_component> > >, __gnu_cxx::__normal_iterator<toml::v3::path_component const*, std::vector<toml::v3::path_component, std::allocator<toml::v3::path_component> > >) const@Base" 3.2.0
+ (c++)"toml::v3::path_component::equal(toml::v3::path_component const&, toml::v3::path_component const&)@Base" 3.2.0
+ (c++)"toml::v3::path_component::operator=(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::path_component::operator=(toml::v3::path_component const&)@Base" 3.2.0
+ (c++)"toml::v3::path_component::operator=(toml::v3::path_component&&)@Base" 3.2.0
+ (c++)"toml::v3::path_component::path_component()@Base" 3.2.0
+ (c++)"toml::v3::path_component::path_component(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::path_component::path_component(toml::v3::path_component const&)@Base" 3.2.0
+ (c++)"toml::v3::path_component::path_component(toml::v3::path_component&&)@Base" 3.2.0
+ (c++)"toml::v3::table::at(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::table::clear()@Base" 3.2.0
+ (c++)"toml::v3::table::equal(toml::v3::table const&, toml::v3::table const&)@Base" 3.2.0
+ (c++)"toml::v3::table::erase(std::_Rb_tree_const_iterator<std::pair<toml::v3::key const, std::unique_ptr<toml::v3::node, std::default_delete<toml::v3::node> > > >)@Base" 3.2.0
+ (c++)"toml::v3::table::erase(std::_Rb_tree_const_iterator<std::pair<toml::v3::key const, std::unique_ptr<toml::v3::node, std::default_delete<toml::v3::node> > > >, std::_Rb_tree_const_iterator<std::pair<toml::v3::key const, std::unique_ptr<toml::v3::node, std::default_delete<toml::v3::node> > > >)@Base" 3.2.0
+ (c++)"toml::v3::table::erase(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::table::find(std::basic_string_view<char, std::char_traits<char> >) const@Base" 3.2.0
+ (c++)"toml::v3::table::find(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::table::get(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::table::get_lower_bound(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
+ (c++)"toml::v3::table::insert_with_hint(toml::v3::impl::table_iterator<true>, toml::v3::key&&, std::unique_ptr<toml::v3::node, std::default_delete<toml::v3::node> >&&)@Base" 3.2.0
+ (c++)"toml::v3::table::is_homogeneous(toml::v3::node_type) const@Base" 3.2.0
+ (c++)"toml::v3::table::is_homogeneous(toml::v3::node_type, toml::v3::node const*&) const@Base" 3.2.0
+ (c++)"toml::v3::table::is_homogeneous(toml::v3::node_type, toml::v3::node*&)@Base" 3.2.0
+ (c++)"toml::v3::table::operator=(toml::v3::table const&)@Base" 3.2.0
+ (c++)"toml::v3::table::operator=(toml::v3::table&&)@Base" 3.2.0
+ (c++)"toml::v3::table::prune(bool) &@Base" 3.2.0
+ (c++)"toml::v3::table::table()@Base" 3.2.0
+ (c++)"toml::v3::table::table(toml::v3::impl::table_init_pair const*, toml::v3::impl::table_init_pair const*)@Base" 3.2.0
+ (c++)"toml::v3::table::table(toml::v3::table const&)@Base" 3.2.0
+ (c++)"toml::v3::table::table(toml::v3::table&&)@Base" 3.2.0
+ (c++)"toml::v3::table::~table()@Base" 3.2.0
+ (c++)"toml::v3::toml_formatter::constants@Base" 3.2.0
+ (c++)"toml::v3::toml_formatter::print()@Base" 3.2.0
+ (c++)"toml::v3::toml_formatter::print(toml::v3::array const&)@Base" 3.2.0
+ (c++)"toml::v3::toml_formatter::print(toml::v3::key const&)@Base" 3.2.0
+ (c++)"toml::v3::toml_formatter::print(toml::v3::table const&)@Base" 3.2.0
+ (c++)"toml::v3::toml_formatter::print_inline(toml::v3::table const&)@Base" 3.2.0
+ (c++)"toml::v3::toml_formatter::print_pending_table_separator()@Base" 3.2.0
+ (c++)"toml::v3::yaml_formatter::print()@Base" 3.2.0
+ (c++)"toml::v3::yaml_formatter::print(toml::v3::array const&, bool)@Base" 3.2.0
+ (c++)"toml::v3::yaml_formatter::print(toml::v3::table const&, bool)@Base" 3.2.0
+ (c++)"toml::v3::yaml_formatter::print_yaml_string(toml::v3::value<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&)@Base" 3.2.0
+ (c++)"typeinfo for toml::v3::array@Base" 3.2.0
+ (c++)"typeinfo for toml::v3::node@Base" 3.2.0
+ (c++)"typeinfo for toml::v3::table@Base" 3.2.0
+ (c++)"typeinfo name for toml::v3::array@Base" 3.2.0
+ (c++)"typeinfo name for toml::v3::node@Base" 3.2.0
+ (c++)"typeinfo name for toml::v3::table@Base" 3.2.0
+ (c++)"vtable for toml::v3::array@Base" 3.2.0
+ (c++)"vtable for toml::v3::node@Base" 3.2.0
+ (c++)"vtable for toml::v3::table@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::array::at(unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::array::flatten_child(toml::v3::array&&, unsigned int&)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::array::preinsertion_resize(unsigned int, unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::array::reserve(unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::array::truncate(unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::impl::formatter::print(toml::v3::value<long long> const&)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, char const*, unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, int, toml::v3::value_flags, unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, long long, toml::v3::value_flags, unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, long, toml::v3::value_flags, unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, short, toml::v3::value_flags, unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, signed char, toml::v3::value_flags, unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::value<long long> const&)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, unsigned char, toml::v3::value_flags, unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, unsigned int, toml::v3::value_flags, unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, unsigned long long, toml::v3::value_flags, unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, unsigned long, toml::v3::value_flags, unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, unsigned short, toml::v3::value_flags, unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::path::leaf(unsigned int) const@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::path::subpath(unsigned int, unsigned int) const@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::path::truncate(unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::path::truncated(unsigned int) const@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::path_component::operator=(unsigned int)@Base" 3.2.0
+ (c++|arch-bits=32)"toml::v3::path_component::path_component(unsigned int)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::array::at(unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::array::flatten_child(toml::v3::array&&, unsigned long&)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::array::preinsertion_resize(unsigned long, unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::array::reserve(unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::array::truncate(unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::impl::formatter::print(toml::v3::value<long> const&)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, char const*, unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, int, toml::v3::value_flags, unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, long long, toml::v3::value_flags, unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, long, toml::v3::value_flags, unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, short, toml::v3::value_flags, unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, signed char, toml::v3::value_flags, unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, toml::v3::value<long> const&)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, unsigned char, toml::v3::value_flags, unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, unsigned int, toml::v3::value_flags, unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, unsigned long long, toml::v3::value_flags, unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, unsigned long, toml::v3::value_flags, unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::impl::print_to_stream(std::basic_ostream<char, std::char_traits<char> >&, unsigned short, toml::v3::value_flags, unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::path::leaf(unsigned long) const@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::path::subpath(unsigned long, unsigned long) const@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::path::truncate(unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::path::truncated(unsigned long) const@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::path_component::operator=(unsigned long)@Base" 3.2.0
+ (c++|arch-bits=64)"toml::v3::path_component::path_component(unsigned long)@Base" 3.2.0
+ (c++|optional)"std::_Sp_make_shared_tag::_S_ti()::__tag@Base" 3.2.0
+ (c++|optional)"std::hexfloat(std::ios_base&)@Base" 3.3.0
+ (c++|optional)"std::piecewise_construct@Base" 3.3.0
+ (c++|optional)"typeinfo for __gnu_cxx::__mutex@Base" 3.2.0
+ (c++|optional)"typeinfo for std::_Mutex_base<(__gnu_cxx::_Lock_policy)1>@Base" 3.2.0
+ (c++|optional)"typeinfo for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>@Base" 3.2.0
+ (c++|optional)"typeinfo for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)1>@Base" 3.2.0
+ (c++|optional)"typeinfo for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>@Base" 3.2.0
+ (c++|optional)"typeinfo for std::_Sp_make_shared_tag@Base" 3.2.0
+ (c++|optional)"typeinfo name for __gnu_cxx::__mutex@Base" 3.2.0
+ (c++|optional)"typeinfo name for std::_Mutex_base<(__gnu_cxx::_Lock_policy)1>@Base" 3.2.0
+ (c++|optional)"typeinfo name for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>@Base" 3.2.0
+ (c++|optional)"typeinfo name for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)1>@Base" 3.2.0
+ (c++|optional)"typeinfo name for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>@Base" 3.2.0
+ (c++|optional)"typeinfo name for std::_Sp_counted_ptr_inplace<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::allocator<void>, (__gnu_cxx::_Lock_policy)1>@Base" 3.2.0
+ (c++|optional)"typeinfo name for std::_Sp_counted_ptr_inplace<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>@Base" 3.2.0
+ (c++|optional)"typeinfo name for std::_Sp_make_shared_tag@Base" 3.2.0

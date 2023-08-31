@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -eu
+
+cd "$AUTOPKGTEST_TMP"
+
+c++ -Wall -Wextra -Wpedantic -Werror -o simple_parser \
+ "$OLDPWD/examples/simple_parser.cpp" $(pkg-config --cflags --libs tomlplusplus)
+
+./simple_parser "$OLDPWD/examples/example.toml"

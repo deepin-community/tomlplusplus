@@ -1,0 +1,21 @@
+#!/bin/sh
+
+set -eu
+
+cd "$AUTOPKGTEST_TMP"
+
+cat <<EOF > CMakeLists.txt
+cmake_minimum_required(VERSION 3.14)
+
+project("tomlplusplus-autopkgtest")
+
+find_package("tomlplusplus")
+
+add_executable(simple_parser "$OLDPWD/examples/simple_parser.cpp")
+
+target_link_libraries(simple_parser tomlplusplus::tomlplusplus)
+EOF
+
+cmake -B build
+cmake --build build
+./build/simple_parser "$OLDPWD/examples/example.toml"

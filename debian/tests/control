@@ -1,0 +1,2 @@
+Tests: cmake, pkgconfig
+Depends: @, g++ | c++-compiler, cmake, pkg-config

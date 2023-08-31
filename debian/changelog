@@ -1,5 +1,28 @@
-template-repository (1.0-1) unstable; urgency=medium
+tomlplusplus (3.3.0+ds-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 3.3.0+ds
+  * d/patches: drop upstreamed patches
+  * d/.symbols: add new char8_t symbols
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Andrea Pappacoda <andrea@pappacoda.it>  Sat, 04 Feb 2023 02:34:33 +0100
+
+tomlplusplus (3.2.0+ds-3) unstable; urgency=medium
+
+  * d/patches: only pass -march=native if supported.
+    Fixes tests compilation on archs where GCC doesn't support the flag
+  * d/.symbols: mark non-toml:: symbols as optional
+
+ -- Andrea Pappacoda <andrea@pappacoda.it>  Tue, 10 Jan 2023 23:25:41 +0100
+
+tomlplusplus (3.2.0+ds-2) unstable; urgency=medium
+
+  [ Bastian Germann ]
+  * Unmark native from cmark-gfm. Closes: #1028252
+
+ -- Andrea Pappacoda <andrea@pappacoda.it>  Mon, 09 Jan 2023 08:17:56 +0100
+
+tomlplusplus (3.2.0+ds-1) unstable; urgency=low
+
+  * Initial release. Closes: #1020595
+
+ -- Andrea Pappacoda <andrea@pappacoda.it>  Tue, 20 Dec 2022 17:33:28 +0100

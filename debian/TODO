@@ -1,0 +1,3 @@
+- Package Poxy and include the full documentation in the package.
+- Figure out a better way to handle documentation installation, see
+  <https://bugs.debian.org/1020636>.

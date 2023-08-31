@@ -1,4 +1,33 @@
 #!/usr/bin/make -f
 
+# optimize=-lto because I use Meson's LTO
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all optimize=-lto qa=+all
+
 %:
-	dh $@
+	dh $@ --buildsystem=meson
+
+ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
+  test := true
+else
+  test := false
+endif
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		-Db_lto=true \
+		-Dbuild_tests=$(test) \
+		-Dcompile_library=true \
+		-Duse_vendored_libs=false
+
+ifeq (,$(filter nodoc,$(DEB_BUILD_OPTIONS)))
+execute_after_dh_auto_build:
+	echo '<meta name="color-scheme" content="light dark">' > README.html
+	echo '<link rel="stylesheet" href="/usr/share/javascript/highlight.js/styles/default.css" media="(prefers-color-scheme: light)">' >> README.html
+	echo '<link rel="stylesheet" href="/usr/share/javascript/highlight.js/styles/dark.css" media="(prefers-color-scheme: dark)">' >> README.html
+	echo '<script src="/usr/share/javascript/highlight.js/highlight.min.js"></script>' >> README.html
+	echo '<script>hljs.initHighlightingOnLoad();</script>' >> README.html
+	cmark-gfm --unsafe --extension table README.md >> README.html
+endif
+
+execute_after_dh_clean:
+	$(RM) README.html

@@ -1,0 +1,8 @@
+version=4
+opts="searchmode=plain, \
+  filenamemangle=s/.+\/v@ANY_VERSION@/@PACKAGE@-$1\.tar\.gz/, \
+  pgpmode=none, \
+  repacksuffix=+ds, \
+  dversionmangle=auto" \
+https://api.github.com/repos/marzer/tomlplusplus/tags \
+https://api.github.com/repos/marzer/tomlplusplus/tarball/refs/tags/v@ANY_VERSION@

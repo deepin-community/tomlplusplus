@@ -1,0 +1,6 @@
+usr/include/
+usr/lib/*/cmake/
+usr/lib/*/libtomlplusplus.so
+usr/lib/*/pkgconfig/
+docs/images/*.png usr/share/doc/libtomlplusplus-dev/docs/images/
+docs/images/*.svg usr/share/doc/libtomlplusplus-dev/docs/images/

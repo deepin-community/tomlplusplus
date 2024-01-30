@@ -17,7 +17,7 @@ override_dh_auto_configure:
 		-Db_lto=true \
 		-Dbuild_tests=$(test) \
 		-Dcompile_library=true \
-		-Duse_vendored_libs=false
+		-Duse_vendored_libs=true
 
 ifeq (,$(filter nodoc,$(DEB_BUILD_OPTIONS)))
 execute_after_dh_auto_build:

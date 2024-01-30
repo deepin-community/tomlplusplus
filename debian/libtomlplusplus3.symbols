@@ -45,7 +45,7 @@ libtomlplusplus.so.3 libtomlplusplus3 #MINVER#
  (c++)"toml::v3::impl::formatter::print(toml::v3::value<toml::v3::time> const&)@Base" 3.2.0
  (c++)"toml::v3::impl::formatter::print_indent()@Base" 3.2.0
  (c++)"toml::v3::impl::formatter::print_newline(bool)@Base" 3.2.0
- (c++)"toml::v3::impl::formatter::print_string(std::basic_string_view<char, std::char_traits<char> >, bool, bool)@Base" 3.2.0
+ (c++|optional)"toml::v3::impl::formatter::print_string(std::basic_string_view<char, std::char_traits<char> >, bool, bool)@Base" 3.2.0
  (c++)"toml::v3::impl::formatter::print_unformatted(char)@Base" 3.2.0
  (c++)"toml::v3::impl::formatter::print_unformatted(std::basic_string_view<char, std::char_traits<char> >)@Base" 3.2.0
  (c++)"toml::v3::impl::formatter::print_value(toml::v3::node const&, toml::v3::node_type)@Base" 3.2.0

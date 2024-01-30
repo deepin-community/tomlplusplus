@@ -3,8 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Andrea Pappacoda <andrea@pappacoda.it>
 Build-Depends: debhelper-compat (= 13)
-Build-Depends-Arch: catch2 <!nocheck>,
-                    cmake,
+Build-Depends-Arch: cmake,
                     cmark-gfm <!nodoc>,
                     locales-all <!nocheck>,
                     meson (>= 0.54.0),
